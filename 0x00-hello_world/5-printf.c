@@ -1,11 +1,11 @@
 #include <stdio.h>
 
   /**
-   * This is the preferred style for multi-line
+   * main - write anything you likeOB
    * comments in C source code.
    * Please use it consistently.
    *
-   * Description:  A column of asterisks on the left side,
+   *  Return: anything you like
    */
 
 int main(void)
