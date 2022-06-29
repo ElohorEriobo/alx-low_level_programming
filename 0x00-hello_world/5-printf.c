@@ -1,9 +1,6 @@
 #include <stdio.h>
-\**
- *main - good
- *no way
- *Return: oh
- *\
+
+ /* main: This is my first C program */
 
 int main(void)
 
