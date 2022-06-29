@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
-  * main; - first time
-  * Good to be here
-  * Return: successful
-  */
+ *Description: main - new here 
+ * Good to be here
+ * Return: successful
+ */
 
 int main(void)
 
