@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *Description: main - new here 
+ * Description: main - new here 
  * Good to be here
  * Return: successful
  */
