@@ -1,12 +1,11 @@
 #include <stdio.h>
 
-  /**
-   * main - write anything you likeOB
-   * comments in C source code.
-   * Please use it consistently.
-   *
-   *  Return: anything you like
-   */
+\**
+
+  * main - first time
+  * Good to be here
+  * Return: successful
+  *\
 
 int main(void)
 
