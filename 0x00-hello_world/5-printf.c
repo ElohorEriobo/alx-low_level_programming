@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-\**
+/**
 
-  * main - first time
+  * main; - first time
   * Good to be here
   * Return: successful
-  *\
+  */
 
 int main(void)
 
