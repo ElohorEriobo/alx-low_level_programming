@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
-
   * main; - first time
   * Good to be here
   * Return: successful
