@@ -1,4 +1,9 @@
 #include <stdio.h>
+\**
+ *main - good
+ *no way
+ *Return: oh
+ *\
 
 int main(void)
 
