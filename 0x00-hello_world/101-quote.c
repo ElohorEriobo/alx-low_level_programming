@@ -1,9 +1,19 @@
 #include <stdio.h>
+#include <string.h>
+#include <unistd.h>
 
-int main(){
+/**
+ * main - Entry
+ *
+ * Return: 0 (success)
+ */
+int main(void)
+{
 
-		printf("Hello world");
+		char *text = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+		int length = strlen(text);
 
-			return 0;
+		write(2, text, length);
+		return (0);
 
 }
