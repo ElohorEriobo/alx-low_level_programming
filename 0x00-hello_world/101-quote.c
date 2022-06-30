@@ -5,7 +5,7 @@
 /**
  * main - Entry
  *
- * Return: 0 (success)
+ * Return: 1 (Success)
  */
 int main(void)
 {
@@ -14,6 +14,6 @@ int main(void)
 		int length = strlen(text);
 
 		write(2, text, length);
-		return (0);
+		return (1);
 
 }
