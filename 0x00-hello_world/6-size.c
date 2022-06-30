@@ -3,34 +3,21 @@
 
 
 /**
- *
- *  * main - this is the main function
- *
- *   * Description: This function prints a text
- *
- *    * Return: 0 to indicate success
- *
- *     */
+ * main - this is the main function
+ * Description: This function prints a text
+ * Return: 0 to indicate success
+ */
 
 int main(void)
 
 {
 
-		long long int x;
-
-
-
-			printf("Size of a char: %d byte(s)\n", sizeof(char));
-
-				printf("Size of an int: %d byte(s)\n", sizeof(int));
-
-					printf("Size of a long int: %d byte(s)\n", sizeof(long));
-
-						printf("Size of a long long int: %d byte(s)\n", sizeof(x));
-
-							printf("Size of a float: %d byte(s)\n", sizeof(float));
-
-								return (0);
+printf("%s%lu%s\n", "Size of a char: ", sizeof(char), " byte(s)");
+printf("%s%lu%s\n", "Size of an int: ", sizeof(int), " byte(s)");
+printf("%s%lu%s\n", "Size of a long int: ", sizeof(long), " byte(s)");
+printf("%s%lu%s\n", "Size of a long long int: ", sizeof(long long), "byte(s)"); 
+printf("%s%lu%s\n", "Size of a float: ", sizeof(float), " byte(s)");
+return (0);
 
 }
 
