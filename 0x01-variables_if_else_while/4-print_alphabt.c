@@ -3,7 +3,6 @@
 
 
 /**
- *
  * main - print all letters of the alphabeth in lower case*
  *
  * Return: 0 if successful
