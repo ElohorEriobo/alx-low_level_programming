@@ -1,0 +1,46 @@
+nt jj;                               :q
+
+:wq!
+                                                                              
+
+      | ^~~                                                                                                                 
+
+101-print_comb4.c:20:6: error: ‘jj’ undeclared (first use in this function)                                                 
+
+   20 | for (jj = ii + 1; jj < 10; jj++)                                                                                    
+
+      |      ^~                                                                                                             
+
+101-print_comb4.c:20:6: note: each undeclared identifier is reported only once for each function it appears in              
+
+101-print_comb4.c:22:26: error: expected ‘;’ before ‘putchar’                                                               
+
+   22 | putchar((var % 10) + '0')                                                                                           
+
+      |                          ^                                                                                          
+
+      |                          ;                                                                                          
+
+   23 | putchar((ii % 10) + '0');                                                                                           
+
+      | ~~~~~~~                                                                                                             
+
+101-print_comb4.c: At top level:                                                                                            
+
+101-print_comb4.c:34:9: error: expected declaration specifiers or ‘...’ before '\xa'                                        
+
+   34 | putchar('\n');                                                                                                      
+
+      |         ^~~~                                                                                                        
+
+101-print_comb4.c:35:1: error: expected identifier or ‘(’ before ‘return’                                                   
+
+   35 | return (0);                                                                                                         
+
+      | ^~~~~~                                                                                                              
+
+101-print_comb4.c:36:1: error: expected identifier or ‘(’ before ‘}’ token                                                  
+
+   36 | }                                                                                                                   
+
+      | ^                            
