@@ -3,35 +3,34 @@
 
 
 /**
+ *  print_alphabet_x10 - Prints the alphabet in lowercase 10 times,
  *
- *  * print_alphabet_x10 - print 10 times the alphabet in lowercase
- *
- *
- *  created : ELOHOR STYLE
- *
- *   cc: 5th july, 2022
- *
- *   Return: void
+ *   followed by a newline
+ * 
  */
-
-
 
 void print_alphabet_x10(void)
 
 {
 
-int ii = 0;
-{
-	while (ii < 10);
+int i;
+
+char c;
+
+
+
+for (i = 0; i < 10; i++)
 
 {
-	
-int jj;
-										for (jj = 'a'; jj <= 'z'; jj++);
-										_putchar(jj);
+	c = 'a';
+while (c <= 'z')
+{
+_putchar(c);
+c++;
+}
 										_putchar('\n');
-										ii++;
-}
-}
+										}
 
 }
+
+
