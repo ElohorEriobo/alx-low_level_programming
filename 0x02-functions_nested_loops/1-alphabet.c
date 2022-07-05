@@ -2,6 +2,7 @@
 
 /*
  * print_alphabet - prints the alphabet in lowercase, followed by a newline
+ * description done by ELOHOR
  * return: 0
  */
 
@@ -9,13 +10,11 @@ void print_alphabet(void)
 
 {
 
-		int ii;
+int ii;
 
+for (ii = 'a'; ii <= 'z'; ii++);
 
+_putchar(ii);
 
-			for (ii = 'a'; ii <= 'z'; ii++)
-
-						_putchar(ii);
-
-				_putchar('\n');
+_putchar('\n');
 }
