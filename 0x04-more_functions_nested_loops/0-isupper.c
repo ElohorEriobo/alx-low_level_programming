@@ -1,8 +1,23 @@
-#include <ctype.h>
+#include "main.h"
 
-/**This is known as “half if” **/ 
 
-if (isupper(c)
-		return (1);
 
-		return (0);
+/**
+ *_isupper - Checks for uppercase character
+ *    @c: The character to check
+ *    Return: 1 if c is uppercase. 0 otherwise
+ */
+
+int _isupper(int c)
+
+{
+
+		if (c >= 'A' && c <= 'Z')
+
+					return (1);
+
+
+
+			return (0);
+
+}
